@@ -541,6 +541,35 @@ img {
   box-shadow: 0 0 20px var(--purple-glow);
 }
 
+.method-card {
+  flex: 1 1 0;
+  min-width: 200px;
+  padding: 1.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--purple-border);
+  border-radius: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.method-card:hover {
+  border-color: var(--purple-accent);
+  box-shadow: 0 0 20px var(--purple-glow);
+}
+
+.method-card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.method-card-desc {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin: 0;
+}
+
 /* ===== VIDEO PLACEHOLDER ===== */
 .video-placeholder {
   position: relative;
@@ -622,6 +651,28 @@ img {
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+.video-with-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+}
+
+.video-desc {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
 }
 
 /* ===== KEY POINTS CARDS ===== */
