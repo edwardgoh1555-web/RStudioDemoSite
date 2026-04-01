@@ -1083,6 +1083,22 @@ img {
   margin-top: 1rem;
 }
 
+.takeaways-subtitle {
+  font-size: clamp(1rem, 1.3vw, 1.15rem);
+  color: var(--text-secondary);
+  margin-top: 1rem;
+  line-height: 1.7;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sprints-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
 .takeaways-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1126,6 +1142,10 @@ img {
 
 @media (max-width: 768px) {
   .takeaways-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sprints-grid {
     grid-template-columns: 1fr;
   }
 }
