@@ -683,6 +683,23 @@ img {
   line-height: 1.5;
 }
 
+/* ===== HOW WE DO IT HEADER ===== */
+.how-header-section {
+  padding: 6rem 0 2rem;
+}
+
+.how-header {
+  text-align: center;
+}
+
+.how-title {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-top: 1rem;
+}
+
 /* ===== CONTENT GRID ===== */
 .content-grid {
   display: grid;
