@@ -502,12 +502,24 @@ img {
   border-bottom: 1px solid var(--purple-border);
 }
 
-.approach-title {
-  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
-  font-weight: 800;
+.approach-header {
   text-align: center;
   margin-bottom: 4rem;
-  line-height: 1.2;
+}
+
+.approach-header-title {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-top: 1rem;
+}
+
+.approach-subtitle {
+  font-size: clamp(1rem, 1.3vw, 1.15rem);
+  color: var(--text-secondary);
+  margin-top: 1rem;
+  line-height: 1.7;
 }
 
 .approach-grid {
